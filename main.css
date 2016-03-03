@@ -1,0 +1,32 @@
+div .etsy {
+  color: red; }
+
+div .image {
+  width: 1265px; }
+
+li {
+  list-style: none;
+  border: none;
+  display: inline-block; }
+  li .first-lr {
+    border-bottom: 1px solid gray;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 0px 10px; }
+  li .reg-lr {
+    border-bottom: 1px solid gray;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 0px 10px; }
+  li .last-lr {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 0px 10px; }
+  li .answers-above {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 0px 10px; }
+  li .answers-below {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 0px 10px; }

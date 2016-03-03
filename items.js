@@ -1,3 +1,7 @@
+// variable items is an array holding objects
+
+
+
 var items = [{
   "listing_id": 161489961,
   "state": "active",
@@ -1024,3 +1028,27 @@ var items = [{
   "has_variations": false,
   "used_manufacturer": false
 }];
+
+
+// Question 1
+// 
+
+
+// Question 2
+// 
+
+
+// Question 3
+// 
+
+
+// Question 4
+// 
+
+
+// Question 5
+// 
+
+
+// Question 6
+// 
