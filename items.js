@@ -1,7 +1,3 @@
-// variable items is an array holding objects
-
-
-
 var items = [{
   "listing_id": 161489961,
   "state": "active",
@@ -458,7 +454,7 @@ var items = [{
   "state": "active",
   "user_id": 46133579,
   "category_id": 69194689,
-  "title": "Libbey 2.5 oz. Shot Glass Multiple Etch Available Military Fire Harley HD IAFF Dept AXXHole",
+  "title": "GBP Multiple Etch Available Military Fire Harley HD IAFF Dept AXXHole",
   "description": "Libbey 1650SR sheer rim 2.5 oz. cordial shot glass.  \r\n\r\nDepartment A$$Hole Etch\r\n\r\nDetails\r\n\r\nThis Libbey 1650SR sheer rim 2.5 oz. cordial shot glass provides a versatile way to serve creatively crafted cordials and playful shooters. Its thin, sheer rim design offers an interesting twist on the traditional cordial glass design that&#39;s sure to intrigue all of your customer.\r\n\r\nDimensions:\r\nTop Diameter: 1 1\/2&quot;\r\nBottom Diameter: 1 3\/8&quot;\r\nHeight: 4 1\/8&quot;\r\n\r\n\r\nCertifications\r\n\r\nMade in America",
   "creation_tsz": 1399762863,
   "ending_tsz": 1410390063,
@@ -1028,27 +1024,3 @@ var items = [{
   "has_variations": false,
   "used_manufacturer": false
 }];
-
-
-// Question 1
-// 
-
-
-// Question 2
-// 
-
-
-// Question 3
-// 
-
-
-// Question 4
-// 
-
-
-// Question 5
-// 
-
-
-// Question 6
-// 

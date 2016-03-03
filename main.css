@@ -7,7 +7,7 @@ div .image {
 li {
   list-style: none;
   border: none;
-  display: inline-block; }
+  display: block; }
   li .first-lr {
     border-bottom: 1px solid gray;
     height: 50px;
