@@ -22,7 +22,7 @@ var totalPrice = arrayOfPrices.reduce(function(sumOfPrice, currentPrice) {
 	return sumOfPrice += currentPrice;
 }, 0);
 var avgPrice = Math.round((totalPrice / items.length) * 100) / 100;
-answerOne.textContent = "The average price is $" + avgPrice;
+answerOne.innerHTML = "The average price is $" + avgPrice;
 
 
 // Question 2
@@ -38,7 +38,7 @@ var newArray = items.filter(function(object) {
 var namesOfStuff = newArray.map(function(object) {
 	return object.title;
 })
-answerTwo.textContent = namesOfStuff;
+answerTwo.innerHTML = namesOfStuff;
 
 
 
@@ -59,8 +59,8 @@ var nameOfGbp = hasGbp.map(function(object) {
 var priceOfGbp = hasGbp.map(function(object) {
 	return object.price;
 });
-var pounds = '&pound';
-answerThree.textContent = nameOfGbp + ' costs ' + pounds + priceOfGbp;
+// var pounds = '';
+answerThree.innerHTML = nameOfGbp + ' costs &pound;' + priceOfGbp;
 
 
 // Question 4
@@ -70,9 +70,15 @@ answerThree.textContent = nameOfGbp + ' costs ' + pounds + priceOfGbp;
 // made of wood. Then we need to get the title of each
 // object in the array.
 
-var madeOfWood = items.filter(function(object) {
-	return object.materials === "wood";
+var madeWood = items.filter(function(object) {
+	if(object.materials.indexOf("wood") > -1 ) {
+		return object;
+	};
 });
+var titleWood = madeWood.map(function(object) {
+	return object.title;
+});
+answerFour.innerHTML = titleWood;
 
 
 // Question 5
@@ -86,16 +92,10 @@ var madeOfWood = items.filter(function(object) {
 var madeOf8 = items.filter(function(object) {
 	return object.materials.length >= 8;
 });
-var name8 = madeOf8.map(function(object) {
-	return object.title;
-})
-var items8 =  madeOf8.map(function(object) {
-	return object.materials;
-})
-var num8 = madeOf8.map(function(object) {
-	return object.materials.length;
+finalAnswer = madeOf8.map(function(object) {
+	return object.title + " has " + object.materials.length + " materials: " + object.materials;
 });
-answerFive.textContent = name8[0] + " has " + num8[0] + " materials" + name8[0] + " " + name8[1] + " has " + num8[1] + " materials" + name8[1];
+answerFive.innerHTML = finalAnswer;
 
 // Question 6
 // How many items were made by their sellers?
@@ -108,5 +108,5 @@ var madeBySeller = items.filter(function(object) {
 	return object.who_made === "i_did";
 });
 var numMadeBySeller = madeBySeller.length;
-answerSix.textContent = numMadeBySeller + " were made by their sellers"
+answerSix.innerHTML = numMadeBySeller + " were made by their sellers"
 
