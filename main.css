@@ -7,7 +7,7 @@ div .image {
 li {
   list-style: none;
   border: none;
-  display: block; }
+  display: inline-block; }
   li .first-lr {
     border-bottom: 1px solid gray;
     height: 50px;
@@ -23,10 +23,12 @@ li {
     width: 50px;
     margin: 0px 10px 0px 10px; }
   li .answers-above {
-    height: 50px;
-    width: 50px;
+    display: block;
+    height: 100px;
+    width: 200px;
     margin: 0px 10px 0px 10px; }
   li .answers-below {
-    height: 50px;
-    width: 50px;
+    display: block;
+    height: 100px;
+    width: 200px;
     margin: 0px 10px 0px 10px; }
