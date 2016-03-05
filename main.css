@@ -1,8 +1,9 @@
 div .etsy {
   color: red; }
 
-div .image {
-  width: 1265px; }
+img {
+  width: 100%;
+}
 
 li {
   list-style: none;
