@@ -1,77 +1,76 @@
-div {
-	.etsy {
-		color: red;
-	}
-	.image {
-		width: 1265px;
-	}
-	.answers {
-
-	}
-	.copyright {
-
-	}
+body {
+  background: #eeeeee;
 }
 
+div {
+  text-align: center;
+  .etsy {
+    background: white;
+  }
+  .etsy-text {
+    text-align: left;
+    padding: 20px 0px 20px 35px;
+    color: #4c4a40;
+    font-size: 24px;
+  }
+  .copyright {
+    color: #8a898b;
+    background: #4b494f;
+    font-size: 12px;
+    padding: 60px 0px 10px 0px;
+  }
+  .answer-below {
+    text-align: center;
+    display: block;
+    margin: 20px 75px 40px 75px;
+  }
+  .empty {
+    height: 40px;
+  }
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  .inline {
+    display: inline;
+    margin: 0;
+  }
+  .block {
+    display: block;
+    margin: 0;
+  }
+}
 
 li {
-	list-style: none;
-	border: none;
-	display: inline-block;
-	.left {
-
-	}
-	.middle {
-
-	}
-	.right {
-
-	}
-	.first-lr {
-		border-bottom: 1px solid gray;
-		height: 50px;
-		width: 50px;
-		margin: 0px 10px 0px 10px;
-	}
-	.reg-lr {
-		border-bottom: 1px solid gray;
-		height: 50px;
-		width: 50px;
-		margin: 0px 10px 0px 10px;
-	}
-	.last-lr {
-		height: 50px;
-		width:50px;
-		margin: 0px 10px 0px 10px;
-	}
-	.answers-above {
-		height: 50px;
-		width: 50px;
-		margin: 0px 10px 0px 10px;
-	}
-
-	.answers-below {
-		height: 50px;
-		width: 50px;
-		margin: 0px 10px 0px 10px;
-
-		#answer1 {
-
-		}
-		#answer2 {
-			
-		}
-		#answer3 {
-			
-		}
-		#answer4 {
-			
-		}
-		#answer5 {
-			
-		}
-		#answer6 {
-			
-		}
-	}
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+   .border-lr {
+    display: block;
+    width: 500px;
+    height: 8px;
+    border-bottom: 2px solid #e8e8e8;
+   }
+   .no-border {
+    display: block;
+    width: 500px;
+    height: 8px;
+   }
 }
+
+
+img {
+  width: 100%;
+}
+
+   .answer-above {
+    color: 4d4d4d;
+    font-family: 'Roboto Slab', serif;
+    line-height: 56px;
+    font-size: 28px;
+    text-align: center;
+    display: inline;
+    margin: 5px 10px 5px 10px;
+  }
